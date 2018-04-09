@@ -1,5 +1,7 @@
 package ejercicios.principiantes;
 
+import java.util.Scanner;
+
 public class Ejercicio_6 
 {
 	public static void main(String[] args) 
@@ -13,6 +15,13 @@ public class Ejercicio_6
 		1 es positivo
 		Si fuese por ejemplo B = -1 la salida será:
 		-1 es negativo */
+		
+		int B;
+	    Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Ingrese el número a evaluar: ");
+		B = scan.nextInt();
+		
+		System.out.println(B >= 0 ? "El número ingresado es positivo." : "El número ingresado es negativo.");
 	}
-
 }

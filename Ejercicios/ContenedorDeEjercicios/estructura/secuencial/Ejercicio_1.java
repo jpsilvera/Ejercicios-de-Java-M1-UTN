@@ -9,13 +9,13 @@ public class Ejercicio_1
 				int primero, segundo;
 				
 				Scanner scan = new Scanner(System.in);
-				System.out.println("Introduce un nÃºmero entero:"); 
+				System.out.println("Introduce un número entero: "); 
 				primero = scan.nextInt();
 								
-				System.out.println("Introduce el segundo nÃºmero entero:");
+				System.out.println("Introduce el segundo número entero:");
 				segundo = scan.nextInt();
 				
-				System.out.println(String.format("Los nÃºmeros ingresados son: ") + primero +" y " + segundo);
+				System.out.println(String.format("Los números ingresados son: ") + primero +" y " + segundo);
 				
 	}
 

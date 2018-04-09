@@ -1,6 +1,4 @@
-package ejercicios.principiantes;
-
-//Sitio web: http://puntocomnoesunlenguaje.blogspot.com.ar/p/ejercicios.html
+package ejercicios;
 
 public class Ejercicio_1 
 {

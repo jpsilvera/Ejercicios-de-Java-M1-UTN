@@ -11,20 +11,13 @@ public class Ejercicio_11
 		Scanner scan = new Scanner(System.in);
 		int numero = scan.nextInt();
 		numero = validarIngreso(numero,scan);
+		
 		//Validar que sean 5 digitos
 		solucionCadena(numero);
 		solucionEntero(numero);
 	
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	private static void solucionEntero(int numero) {
 		// TODO Auto-generated method stub
